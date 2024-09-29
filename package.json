@@ -1,0 +1,28 @@
+{
+  "name": "bruhhitw_bot_js",
+  "version": "1.0.0",
+  "description": "用來學習使用 Javascript 開發 Discord bot",
+  "main": "./prod/index,js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r dotenv/config ./prod/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ej95/BruhhiTW_Bot_JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ej95/BruhhiTW_Bot_JS/issues"
+  },
+  "homepage": "https://github.com/Ej95/BruhhiTW_Bot_JS#readme",
+  "dependencies": {
+    "@discordjs/builders": "^1.9.0",
+    "@discordjs/rest": "^2.4.0",
+    "discord-api-types": "^0.37.101",
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.7.0"
+  }
+}
